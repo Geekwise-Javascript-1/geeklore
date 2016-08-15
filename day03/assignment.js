@@ -10,7 +10,7 @@ var userResp = prompt('What would you like to do?');
 if ( userResp == null){
   alert('You canceled!');
   console.log(userResp);
-// Could use || above to save coding, but I like having to cases and two different messages
+// Could use || above to save coding, but I like having two cases and two different messages
 // if ( userResp == null || userResp ==""){
 // so let's test for no value and then ask for input not a blank submission
 // Can't wait until we are using forms and not alerts!
